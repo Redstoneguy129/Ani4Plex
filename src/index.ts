@@ -7,10 +7,12 @@ const app = express();
 const port = 3050;
 console.log(__dirname)
 
-app.use(express.static(path.join(__dirname, '../frontend/build')));
-app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
-});
+if(process.env.NODE_ENV === "production") {
+    app.use(express.static(path.join(__dirname, '../frontend/build')));
+    app.get('/*', function (req, res) {
+        res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
+    });
+}
 
 import api from "./api/index";
 app.use('/api', api);
