@@ -1,0 +1,13 @@
+{
+	"name": "Ani4Plex",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+		"ms-vscode.vscode-typescript-next",
+		"qwtel.sqlite-viewer"
+	],
+	"remoteUser": "node",
+	"features": {
+		"docker-from-docker": "latest",
+		"git": "latest"
+	}
+}
