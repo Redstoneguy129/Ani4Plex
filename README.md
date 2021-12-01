@@ -40,12 +40,12 @@ Start Ani4Plex
 
 ## Features
 
-- Dark mode
-- Auto season mapping
-- Web user interface
-- Create connections (Discord, Anilist, MAL)
-- Authentication
-- Cross platform
+- Dark mode.
+- Auto season mapping.
+- Web user interface.
+- Connect to your favourite listing services.
+- Authentication.
+- Cross platform.
 
 
 ## Acknowledgements
