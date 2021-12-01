@@ -40,7 +40,7 @@ Start Ani4Plex
 
 ## Features
 
-- Light/dark mode toggle
+- Dark mode
 - Auto season mapping
 - Web user interface
 - Create connections (Discord, Anilist, MAL)
