@@ -10,7 +10,6 @@ This was supposed to be a Plex only Anime manager but since demand for a univers
 ## Badges
 
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg?style=for-the-badge)
-![typescript](https://forthebadge.com/images/badges/made-with-typescript.svg)
 ## Run Locally
 
 Clone the project
