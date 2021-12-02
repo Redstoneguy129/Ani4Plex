@@ -1,5 +1,5 @@
 import { Button, Typography } from "@mui/material";
-import { AppBar, Toolbar } from "../components";
+import { AppBar, Toolbar } from "../styles";
 
 export default function Navbar() {
     return (
@@ -10,7 +10,7 @@ export default function Navbar() {
                 </Typography>
                 <div style={{ flexGrow: 1 }}>
                     <Button color="inherit">Browse</Button>
-                    <Button color="inherit">Browse</Button>
+                    <Button color="inherit">Connections</Button>
                     <Button color="inherit">Settings</Button>
                 </div>
                 <Button color="inherit">Logout</Button>
