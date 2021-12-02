@@ -39,8 +39,10 @@ export default class Page extends React.Component {
     }
     render(): React.ReactNode {
         return (
-            <div style={{ display: 'flex', marginTop: 15, flexWrap: 'wrap', rowGap: 15, columnGap: 15, alignItems: 'center', justifyContent: 'center'  }}>
-                {this.getShows()}
+            <div>
+                <div style={{ display: 'flex', marginTop: 15, flexWrap: 'wrap', rowGap: 15, columnGap: 15, alignItems: 'center', justifyContent: 'center'  }}>
+                    {this.getShows()}
+                </div>
             </div>
         );
     }
