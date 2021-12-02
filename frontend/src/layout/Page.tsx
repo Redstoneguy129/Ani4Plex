@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import React from "react";
 import Show from "../components/Show";
 
@@ -6,8 +7,8 @@ type show = {
     watched?: number,
     episodes: number
 }
-
-const shows: show[] = [
+var shows: show[] = [];
+shows = [
     {
         title: "Boku No Hero Academia",
         watched: 6,
@@ -27,7 +28,7 @@ const shows: show[] = [
         watched: 7,
         episodes: 8
     }
-];
+];;
 
 export default class Page extends React.Component {
     getShows() {
@@ -37,12 +38,22 @@ export default class Page extends React.Component {
         });
         return showsComp;
     }
+    NoShows() {
+        return shows.length === 0;
+    }
     render(): React.ReactNode {
         return (
             <div>
-                <div style={{ display: 'flex', marginTop: 15, flexWrap: 'wrap', rowGap: 15, columnGap: 15, alignItems: 'center', justifyContent: 'center'  }}>
-                    {this.getShows()}
-                </div>
+                {
+                    this.NoShows() ? 
+                    <>
+                        <Typography variant="h6" align="center" sx={{ color: '#FFFFFF' }}>There doesn't seem to be any shows added.</Typography>
+                        <Typography variant="h6" align="center" sx={{ color: '#FFFFFF' }}>Perhaps add a connection.</Typography>
+                    </> : 
+                    <div style={{ display: 'flex', marginTop: 15, flexWrap: 'wrap', rowGap: 15, columnGap: 15, alignItems: 'center', justifyContent: 'center'  }}>
+                        {this.getShows()}
+                    </div>
+                }
             </div>
         );
     }

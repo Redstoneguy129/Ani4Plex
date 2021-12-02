@@ -12,7 +12,7 @@ export default function Show({title, watched = 0, episodes}: {title: string, wat
             <CardContent>
                 <LinearProgress color={ (watched === 0) ? "error" : ((watched === episodes) ? "success" : "primary") } variant="determinate" value={ complete ? 100 : (watched/episodes)*100 } />
                 <Typography sx={{ color: '#FFFFFF' }} variant="subtitle1" align="center">
-                    { (watched===0) ? "Not Started" : ((watched === episodes) ? "Complete" + "("+watched+"/"+episodes+")" : "Watching" + "("+watched+"/"+episodes+")") }
+                    { (watched===0) ? "Not Started" : ((watched === episodes) ? "Complete " + "("+watched+"/"+episodes+")" : "Watching " + "("+watched+"/"+episodes+")") }
                 </Typography>
             </CardContent>
         </Card>
