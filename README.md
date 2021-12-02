@@ -1,7 +1,7 @@
 
 # Ani4Plex
 
-Sync Plex anime library to AniList or MyAnimeList
+Sync your Anime content library to your favourite leaderboard and listing services. 
 
 
 ![Logo](https://repository-images.githubusercontent.com/433297648/f64615f6-7894-4659-9b8d-711313fb486b)
@@ -43,7 +43,7 @@ Start Ani4Plex
 - Dark mode.
 - Auto season mapping.
 - Web user interface.
-- Connect to your favourite listing services.
+- Connect to your favourite content and listing services.
 - Authentication.
 - Cross platform.
 
