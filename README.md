@@ -1,8 +1,8 @@
 
 # Ani4Plex
 
-Sync your Anime content library to your favourite leaderboard and listing services. 
-
+Sync your Anime content library to your favourite leaderboard and listing services.
+This was supposed to be a Plex only Anime manager but since demand for a universal manager was high i've decided to open it up to other content providers but chose to keep the original name.
 
 ![Logo](https://repository-images.githubusercontent.com/433297648/f64615f6-7894-4659-9b8d-711313fb486b)
 
