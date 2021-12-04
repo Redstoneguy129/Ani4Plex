@@ -14,8 +14,7 @@
         "build:saba": "npm run build -w Sāba",
         "build:saito": "npm run build -w Saito",
         "clean": "rimraf build",
-        "install-all": "run-p installQ:*",
-        "installQ:here": "npm install",
+        "install-all": "npm install && run-p installQ:*",
         "installQ:saba": "npm run installQ -w Sāba",
         "installQ:saito": "npm run installQ -w Saito"
     },
