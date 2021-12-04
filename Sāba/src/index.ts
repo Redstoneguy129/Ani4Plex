@@ -1,4 +1,5 @@
-require('dotenv').config();
+//import dotenv from "dotenv";
+//dotenv.config();
 
 import express from "express";
 import path from "path";
@@ -9,7 +10,7 @@ console.log(__dirname)
 
 if(process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, '../Saito')));
-    app.get('/*', function (req, res) {
+    app.get('/', function (req, res) {
         res.sendFile(path.join(__dirname, '../Saito', 'index.html'));
     });
 }

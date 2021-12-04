@@ -2,7 +2,7 @@
   "name": "saito",
   "scripts": {
     "dev": "react-scripts start",
-    "build": "react-scripts build && mv build ../build/Saito",
+    "build": "BUILD_PATH='../build/Saito' react-scripts build",
     "installQ": "npm install"
   },
   "devDependencies": {
