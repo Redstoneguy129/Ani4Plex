@@ -6,35 +6,21 @@ This was supposed to be a Plex only Anime manager but since demand for a univers
 
 ![Logo](https://repository-images.githubusercontent.com/433297648/f64615f6-7894-4659-9b8d-711313fb486b)
 
-
-## Badges
-
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg?style=for-the-badge)
-## Run Locally
+![GitHub contributors](https://img.shields.io/github/contributors/Redstoneguy129/Ani4Plex?color=yellow&style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Redstoneguy129/Ani4Plex?color=yellow&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/Redstoneguy129/Ani4Plex?color=yellow&label=Issues&style=for-the-badge)
 
-Clone the project
+## Donate
+![BTC Wallet](https://img.shields.io/keybase/btc/redstoneguy129?style=for-the-badge)
 
-```bash
-  git clone https://github.com/Redstoneguy129/Ani4Plex.git
-```
 
-Go to the project directory
+## Structure
 
-```bash
-  cd Ani4Plex
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start Ani4Plex
-
-```bash
-  npm run start
-```
+| Codebase              |      Description          |
+| :-------------------- | :-----------------------: |
+| [Sāba](Sāba)        |      Server           |
+| [Saito](Saito)  |     Web UI          |
 
 
 ## Features
@@ -47,10 +33,16 @@ Start Ani4Plex
 - Cross platform.
 
 
+## Code of Conduct
+
+Please read [CODE_OF_CONDUCT.md](https://github.com/Redstoneguy129/Ani4Plex/blob/master/CODE_OF_CONDUCT.md) for details on our code of conduct.
+
+
 ## Acknowledgements
 
 - [PlexAniSync](https://github.com/RickDB/PlexAniSync)
+
+
 ## License
 
 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
-

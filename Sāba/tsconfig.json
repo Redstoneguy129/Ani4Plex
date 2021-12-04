@@ -11,6 +11,5 @@
     "strict": true,
     "noImplicitAny": true,
     "skipLibCheck": true
-  },
-  "exclude": ["frontend/"]
+  }
 }
