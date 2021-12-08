@@ -4,7 +4,7 @@
 Sync your Anime content library to your favourite leaderboard and listing services.
 This was supposed to be a Plex only Anime manager but since demand for a universal manager was high i've decided to open it up to other content providers but chose to keep the original name.
 
-![Logo](https://repository-images.githubusercontent.com/433297648/f64615f6-7894-4659-9b8d-711313fb486b)
+![Logo](https://github.com/Redstoneguy129/Ani4Plex/blob/master/Assets/Ani4PlexBanner.png?raw=true)
 
 ![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/Redstoneguy129/Ani4Plex?color=yellow&style=for-the-badge)
