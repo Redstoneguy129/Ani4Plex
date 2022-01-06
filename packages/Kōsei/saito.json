@@ -1,0 +1,26 @@
+{
+    "extends": "kosei/base.json",
+    "compilerOptions": {
+      "target": "es5",
+      "lib": [
+        "es6",
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx",
+      "noImplicitThis": true,
+      "strictNullChecks": true
+    },
+    "include": [
+      "src"
+    ]
+  }
+  
