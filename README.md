@@ -34,8 +34,8 @@ Sync your Anime source library to your favourite leaderboard and tracking servic
 - [x] Start the Plugin API.
 - [ ] Release the Plugin API to NPM.
 - [ ] Start the Ani4Plex Server.
-- [ ] Create basic Plugin Server interactions
-- [ ] 
+- [ ] Create basic Plugin Server interactions.
+- [ ] Create Plugin API build system.
 
 
 ## Code of Conduct
