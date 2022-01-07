@@ -10,6 +10,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
+    "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
@@ -21,6 +22,9 @@
       "build": {
         "dependsOn": ["^build"],
         "outputs": ["dist/**"]
+      },
+      "test": {
+        "cache": false
       },
       "dev": {
         "cache": false

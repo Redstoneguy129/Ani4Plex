@@ -20,6 +20,7 @@ Sync your Anime source library to your favourite leaderboard and tracking servic
 | [Sāba](apps/Sāba)        |      Server           |
 | [Saito](apps/Saito)  |     Web UI          |
 | [Kōsei](packages/Kōsei)  |     Config          |
+| [Puraguin](packages/Puraguin)  |     Plugin API          |
 
 ## Features
 
