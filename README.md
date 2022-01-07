@@ -13,6 +13,7 @@ Sync your Anime source library to your favourite leaderboard and tracking servic
 ## Donate
 ![BTC Wallet](https://img.shields.io/keybase/btc/redstoneguy129?style=for-the-badge&color=orange)
 
+
 ## Structure
 
 | Codebase              |      Description          |
@@ -22,9 +23,20 @@ Sync your Anime source library to your favourite leaderboard and tracking servic
 | [Kōsei](packages/Kōsei)  |     Config          |
 | [Puraguin](packages/Puraguin)  |     Plugin API          |
 
+
 ## Features
 
 - None so far
+
+
+## Roadmap
+
+- [x] Start the Plugin API.
+- [ ] Release the Plugin API to NPM.
+- [ ] Start the Ani4Plex Server.
+- [ ] Create basic Plugin Server interactions
+- [ ] 
+
 
 ## Code of Conduct
 
