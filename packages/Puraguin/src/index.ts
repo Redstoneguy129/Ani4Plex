@@ -1,17 +1,20 @@
 export enum AuthType {
-    NIL,
+    USER,
     KEY,
-    USER
+    OATH
 }
 
-abstract class Puraguin {
-    readonly authType: AuthType;
+export interface Puraguin {
+    getShows?(): string[];
+}
 
-    constructor(authType: AuthType) {
-        this.authType = authType;
+export abstract class Puraguin {
+    readonly name: string;
+    readonly auth: AuthType | undefined;
+    constructor(name: string, auth?: AuthType) {
+        this.name = name;
+        this.auth = auth;
     }
-
-    abstract getShow(): void;
 }
 
 export default Puraguin;

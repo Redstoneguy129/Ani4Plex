@@ -1,4 +1,5 @@
-import Puraguin, { AuthType } from "../";
+import Puraguin from "../";
+import Plex from "../test";
 
 test('test tracker', () => {
     const text = "text";
@@ -6,11 +7,10 @@ test('test tracker', () => {
 })
 
 test('test class', () => {
-    class tracker extends Puraguin {
-        getShow(): void {
-            throw new Error("Method not implemented.");
-        }
-}
-    const plugin = new tracker(AuthType.USER);
-    expect(plugin.authType).toEqual(AuthType.NIL);
+    console.log(Plex.prototype);
+    expect(true);
 })
+
+export default {
+
+} as Puraguin;
